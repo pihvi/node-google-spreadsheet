@@ -318,6 +318,5 @@ var xmlSafeValue = function(val){
 }
 var xmlSafeColumnName = function(val){
     if (!val) return '';
-    return String(val).replace(/[\s_]+/g, '')
-        .toLowerCase();
+    return String(val).replace(/[\s_]+/g, '');
 }
